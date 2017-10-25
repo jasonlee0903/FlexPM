@@ -1,1 +1,10 @@
-{}
+{
+  "projectslist": [
+    {
+      "ID": "1",
+      "Name": "Emergency Exit System",
+      "Status": "Completed",
+      "Manager": "Jason Lee"
+    }
+  ]
+}
