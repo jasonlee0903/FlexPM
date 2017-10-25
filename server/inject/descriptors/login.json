@@ -45,6 +45,11 @@
       },
       "selector": "#ctl00_MainContent_login",
       "control": "action.button"
+    },
+    "isLogin": {
+      "type": "identifier",
+      "selector": "#ctl00_MainContent_login",
+      "control": "action.button"
     }
   },
   "connect": []
