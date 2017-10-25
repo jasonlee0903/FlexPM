@@ -14,5 +14,12 @@
       "selectContains": "Development Management"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isFirstpage"
+      ],
+      "action": "devLink"
+    }
+  ]
 }
