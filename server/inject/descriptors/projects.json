@@ -47,7 +47,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "#ctl00_MainContent_dxGrvSpr>tr:not(first-child)"
+      "selectorAll": "#ctl00_MainContent_dxGrvSpr > tr:not(first-child)"
     }
   },
   "connect": []
