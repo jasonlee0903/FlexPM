@@ -6,10 +6,6 @@
       "selector": "div",
       "control": "exists",
       "selectContains": "Applications"
-    },
-    "projectslistLink": {
-      "type": "method",
-      "parameters": {}
     }
   },
   "connect": [
