@@ -10,7 +10,7 @@
     "devLink": {
       "type": "action",
       "selector": ".panel-text-title",
-      "control": "property.innerText",
+      "control": "action.link",
       "selectContains": "Development Management"
     }
   },
