@@ -8,13 +8,5 @@
       "selectContains": "Applications"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isFirstpage"
-      ],
-      "event": "linktoprojects",
-      "model": "projects"
-    }
-  ]
+  "connect": []
 }
