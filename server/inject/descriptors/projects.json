@@ -13,13 +13,16 @@
               "type": "none"
             },
             "selector": "td",
-            "control": "text"
+            "control": "property.innerText"
           },
           "Name": {
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 1,
+            "control": "property.innerText"
           },
           "Status": {
             "type": "string",
