@@ -13,5 +13,12 @@
       "selectContains": "All Projects"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isDevpage"
+      ],
+      "action": "projectsLink"
+    }
+  ]
 }
