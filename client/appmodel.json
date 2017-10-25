@@ -42,5 +42,31 @@
         }
       }
     }
+  },
+  "projects": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "projectslist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "ID": {
+              "type": "string"
+            },
+            "Name": {
+              "type": "string"
+            },
+            "Status": {
+              "type": "string"
+            },
+            "Manager": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
   }
 }
