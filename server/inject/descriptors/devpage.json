@@ -5,6 +5,11 @@
       "type": "identifier",
       "selector": "#page-heading",
       "control": "exists"
+    },
+    "projectsLink": {
+      "type": "action",
+      "selector": "#page-heading",
+      "control": "property.innerText"
     }
   },
   "connect": []
