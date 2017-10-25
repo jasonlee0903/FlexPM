@@ -52,7 +52,8 @@
     "isProjectsView": {
       "type": "identifier",
       "selector": "#ctl00_MainContent_lblSpSection",
-      "control": "exists"
+      "control": "exists",
+      "selectContains": "All Sub Project"
     }
   },
   "connect": [],
