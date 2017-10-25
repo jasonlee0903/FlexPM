@@ -48,7 +48,13 @@
         "type": "none"
       },
       "selectorAll": "#ctl00_MainContent_dxGrvSpr_DXMainTable tbody tr[class='dxgvDataRow_PlasticBlue']"
+    },
+    "isProjectsView": {
+      "type": "identifier",
+      "selector": ".dxgvDataRow_PlasticBlue.dxgvDataRowAlt_PlasticBlue",
+      "control": "property.innerText"
     }
   },
-  "connect": []
+  "connect": [],
+  "selector": "#ctl00_MainContent_lblSpSection"
 }
