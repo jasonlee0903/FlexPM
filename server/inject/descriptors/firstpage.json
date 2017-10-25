@@ -9,8 +9,9 @@
     },
     "devLink": {
       "type": "action",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": ".panel-text-title",
+      "control": "property.innerText",
+      "selectContains": "Development Management"
     }
   },
   "connect": []
