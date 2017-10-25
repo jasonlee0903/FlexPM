@@ -6,7 +6,19 @@
       "selector": "div",
       "control": "exists",
       "selectContains": "Applications"
+    },
+    "projectslistLink": {
+      "type": "action",
+      "selector": "div",
+      "control": "property.innerHTML"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isFirstpage"
+      ],
+      "action": "projectslistLink"
+    }
+  ]
 }
