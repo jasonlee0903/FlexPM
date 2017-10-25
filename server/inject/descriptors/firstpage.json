@@ -3,8 +3,9 @@
   "properties": {
     "isFirstpage": {
       "type": "identifier",
-      "selector": "#ctl00_MainContent_lblSpSection",
-      "control": "property.innerText"
+      "selector": "div",
+      "control": "exists",
+      "selectContains": "Applications"
     }
   },
   "connect": []
