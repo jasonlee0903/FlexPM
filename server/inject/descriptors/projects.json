@@ -1,0 +1,42 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "projectslist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ID": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "Name": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "Status": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "Manager": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      }
+    }
+  },
+  "connect": []
+}
