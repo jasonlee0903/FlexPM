@@ -1,5 +1,11 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isFirstpage": {
+      "type": "identifier",
+      "selector": "#ctl00_MainContent_lblSpSection",
+      "control": "property.innerText"
+    }
+  },
   "connect": []
 }
