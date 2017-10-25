@@ -56,6 +56,15 @@
       "selectContains": "All Sub Project"
     }
   },
-  "connect": [],
+  "connect": [
+    {
+      "match": [
+        "isProjectsView"
+      ],
+      "screens": [
+        "projects"
+      ]
+    }
+  ],
   "selector": "#ctl00_MainContent_lblSpSection"
 }
