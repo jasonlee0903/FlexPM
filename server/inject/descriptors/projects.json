@@ -47,7 +47,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "#ctl00_MainContent_dxGrvSpr_DXMainTable tbody tr[dxgvDataRow_PlasticBlue]"
+      "selectorAll": "#ctl00_MainContent_dxGrvSpr_DXMainTable tbody tr[class='dxgvDataRow_PlasticBlue']"
     }
   },
   "connect": []
