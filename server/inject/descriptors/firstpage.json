@@ -8,9 +8,8 @@
       "selectContains": "Applications"
     },
     "projectslistLink": {
-      "type": "action",
-      "selector": "div",
-      "control": "property.innerHTML"
+      "type": "method",
+      "parameters": {}
     }
   },
   "connect": [
