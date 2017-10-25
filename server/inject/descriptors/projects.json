@@ -28,13 +28,19 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 3,
+            "control": "property.innerText"
           },
           "Manager": {
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selectIndex": 2,
+            "selector": "td",
+            "control": "property.innerText"
           }
         }
       },
