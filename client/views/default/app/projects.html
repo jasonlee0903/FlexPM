@@ -9,23 +9,24 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <div data-comp-id="div.1" style="border-bottom: 1px solid rgb(204, 204, 204);">
+        <div data-comp-id="div.1" ng-repeat="item in data.projectslist"
+            style="border-bottom: 1px solid rgb(204, 204, 204);">
             <div class="row" data-comp-id="row.1">
                 <div class="col" data-comp-id="column.1">
-                    <div data-comp-id="text.1">ID</div>
-                </div>
-            </div>
-            <div class="row" data-comp-id="row.3">
-                <div class="col" data-comp-id="column.3">
-                    <div data-comp-id="text.2">Name</div>
+                    <div data-comp-id="text.1" ng-bind="item.ID">ID</div>
                 </div>
             </div>
             <div class="row" data-comp-id="row.2">
                 <div class="col" data-comp-id="column.2">
-                    <div data-comp-id="text.3">Project Manager</div>
+                    <div data-comp-id="text.2" ng-bind="item.Name">Name</div>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.3">
+                <div class="col" data-comp-id="column.3">
+                    <div data-comp-id="text.3" ng-bind="item.Manager">Project Manager</div>
                 </div>
                 <div class="col" data-comp-id="column.4">
-                    <div data-comp-id="text.4">Status</div>
+                    <div data-comp-id="text.4" ng-bind="item.Status">Status</div>
                 </div>
             </div>
         </div>
@@ -34,7 +35,7 @@
         dynamic-floating-footer="">
         <div class="row" data-comp-id="row.4" style="padding: 0px;">
             <div class="col text-right" data-comp-id="column.5" style="padding: 0px;">
-                <div class="footer-button" data-comp-id="footerButton.2">
+                <div class="footer-button" data-comp-id="footerButton.1">
                     <button class="button icon button-round button-shadowed ion-plus-round"></button>
                     <div class="label"></div>
                 </div>

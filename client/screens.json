@@ -32,7 +32,8 @@
       "id": "projects",
       "name": "Projects",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "projects"
     }
   ],
   "sourceAppId": "_blank",
