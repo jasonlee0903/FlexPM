@@ -6,6 +6,11 @@
       "selector": "div",
       "control": "exists",
       "selectContains": "Applications"
+    },
+    "devLink": {
+      "type": "action",
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
   "connect": []
