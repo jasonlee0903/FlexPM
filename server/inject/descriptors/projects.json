@@ -11,7 +11,9 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "control": "text"
           },
           "Name": {
             "type": "string",
@@ -35,7 +37,8 @@
       },
       "update": {
         "type": "none"
-      }
+      },
+      "selectorAll": "#ctl00_MainContent_dxGrvSpr"
     }
   },
   "connect": []
