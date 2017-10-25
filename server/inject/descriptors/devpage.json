@@ -8,8 +8,9 @@
     },
     "projectsLink": {
       "type": "action",
-      "selector": "#page-heading",
-      "control": "property.innerText"
+      "selector": ".dxtv-ndTxt.dx-vam",
+      "control": "action.link",
+      "selectContains": "All Containers"
     }
   },
   "connect": []
