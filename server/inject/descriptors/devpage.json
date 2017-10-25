@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "isDevpage": {
+      "type": "identifier",
+      "selector": "#page-heading",
+      "control": "exists"
+    }
+  },
+  "connect": []
+}
