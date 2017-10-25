@@ -10,7 +10,7 @@
       "type": "action",
       "selector": ".dxtv-ndTxt.dx-vam",
       "control": "action.link",
-      "selectContains": "All Containers"
+      "selectContains": "All Projects"
     }
   },
   "connect": []
