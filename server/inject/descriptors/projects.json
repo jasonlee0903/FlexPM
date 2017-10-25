@@ -51,8 +51,8 @@
     },
     "isProjectsView": {
       "type": "identifier",
-      "selector": ".dxgvDataRow_PlasticBlue.dxgvDataRowAlt_PlasticBlue",
-      "control": "property.innerText"
+      "selector": "#ctl00_MainContent_lblSpSection",
+      "control": "exists"
     }
   },
   "connect": [],
